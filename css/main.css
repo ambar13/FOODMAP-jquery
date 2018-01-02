@@ -1,0 +1,92 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.container-flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2 em;
+  height: 100vh;
+}
+
+.vh100 {
+  height: 100vh;
+}
+
+.img-fond {
+  background-image: url("../assets/images/1.jpg");
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+}
+
+.text-style {
+  color: white;
+}
+
+.fond {
+  background-color:#2B2B2B;
+  color: orange;
+}
+
+/* imagenes */
+.ita {
+  background-image: url("../assets/images/italiana.jpg");
+  height: 120px;
+  background-size: unset;
+  background-repeat: no-repeat;
+}
+
+.peruana {
+  background-image: url("../assets/images/peruana.jpg");
+  height: 120px;
+  background-size: cover;
+}
+
+.argentina {
+  background-image: url("../assets/images/argentina.jpg");
+  /* height: 120px; */
+  background-size: cover;
+}
+
+.francesa {
+  background-image: url("../assets/images/francesa.jpg");
+  height: 120px;
+  background-size: cover;
+}
+
+.japones {
+  background-image: url("../assets/images/japonesa.jpg");
+  height: 120px;
+  background-size: cover;
+}
+
+.mexicana {
+  background-image: url("../assets/images/mexicana.jfif");
+  height: 120px;
+  background-size: cover;
+}
+
+.grecia {
+  background-image: url("../assets/images/grecia.jpg");
+  height: 120px;
+  background-size: cover;
+}
+
+.española {
+  background-image: url("../assets/images/español.jpg");
+  height: 120px;
+  background-size: cover;
+}
+
+.tailandes {
+  background-image: url("../assets/images/tailandes.jpg");
+  height: 120px;
+  background-size: cover;
+}
+
+.estadounidense {
+  background-image: url("../assets/images/eeuu.jfif");
+  height: 120px;
+  background-size: cover;
+}

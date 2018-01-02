@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link rel="stylesheet" href="../css/main.css">
+  <title>Foodmap</title>
+</head>
+<body class="fond vh100">
+  <h1 class="text-center">Foodmap</h1>
+  <hr>
+  <div class="col-xs-12">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31206.902691866606!2d-77.04635747873341!3d-12.121536050709867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8137c30393f%3A0x5268cb2b1c4b162b!2sMiraflores!5e0!3m2!1ses!2spe!4v1514682495671" width="95%" height="auto" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+  <section>
+    <h3 class="text-center">Comida Cerca De Ti</h3>
+    <select class="form-control" id="listFood">
+        <option value="" disabled selected>Elige tu Opción Favorita</option>
+        <option value="pastas">Italiana</option>
+        <option value="criolla">Peruana</option>
+        <option value="carnes">Argentina</option>
+        <option value="francesa">Francesa</option>
+        <option value="sushi">Japones</option>
+        <option value="mexicana">Mexicana</option>
+        <option value="grecia">Grecia</option>
+        <option value="españa">Español</option>
+        <option value="tailandia">Tailandesa</option>
+        <option value="eeuu">Estado Unidense</option>
+      </select>
+  </section>
+  <div class="container-fluid vh100">
+    <div class="row">
+      <div class="col-xs-10 plate img-thumbnail data-toggle="modal" data-target="#ital" ita"></div>
+      <div class="col-xs-10 plate img-thumbnail data-toggle="modal" data-target="#myModal" peruana" > </div>
+      <div class="col-xs-10 plate img-thumbnail data-toggle="modal" data-target="#myModal" argentina" ></div>
+      <div class="col-xs-10 plate img-thumbnail data-toggle="modal" data-target="#myModal" francesa"></div>
+      <div class="col-xs-10 plate img-thumbnail data-toggle="modal" data-target="#myModal" japones"></div>
+      <div class="col-xs-10 plate img-thumbnail data-toggle="modal" data-target="#myModal" mexicana"></div>
+      <div class="col-xs-10 plate img-thumbnail data-toggle="modal" data-target="#myModal" grecia"></div>
+      <div class="col-xs-10 plate img-thumbnail data-toggle="modal" data-target="#myModal" española"></div>
+      <div class="col-xs-10 plate img-thumbnail data-toggle="modal" data-target="#myModal" tailandes"></div>
+      <div class="col-xs-10 plate img-thumbnail estadounidense"></div>
+    </div>
+  </div>
+<!-- modales -->
+<div class="modal fade" id="ital" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <img class="img-responsive" src="../assets/images/italiana.jpg">
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+
+
+  <script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
+  <!-- <script src="../vendors/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script> -->
+	<script src="../js/page.js"></script>
+    
+</body>
+</html>
