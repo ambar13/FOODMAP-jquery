@@ -10,43 +10,46 @@
   <title>Foodmap</title>
 </head>
 <body class="fond vh100">
-  <h1 class="text-center">Foodmap</h1>
-  <hr>
-  <div class="col-xs-12">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31206.902691866606!2d-77.04635747873341!3d-12.121536050709867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8137c30393f%3A0x5268cb2b1c4b162b!2sMiraflores!5e0!3m2!1ses!2spe!4v1514682495671" width="95%" height="auto" frameborder="0" style="border:0" allowfullscreen></iframe>
+  <div class="container">
+    <h1 class="text-center">Foodmap</h1>
+    <hr>
+    <div class="col-xs-12">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31206.902691866606!2d-77.04635747873341!3d-12.121536050709867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8137c30393f%3A0x5268cb2b1c4b162b!2sMiraflores!5e0!3m2!1ses!2spe!4v1514682495671" width="95%" height="auto" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
   </div>
-  <section>
+  <section class="col-xs-12">
     <h3 class="text-center">Comida Cerca De Ti</h3>
+    <!-- <input type="search" class="form-control search" id="searchPlate" aria-describedby="inputGroupSuccess1Status" placeholder="Tipos de platos"> -->
     <select class="form-control" id="listFood">
-        <option value="" disabled selected>Elige tu Opción Favorita</option>
-        <option value="pastas">Italiana</option>
-        <option value="criolla">Peruana</option>
-        <option value="carnes">Argentina</option>
-        <option value="francesa">Francesa</option>
-        <option value="sushi">Japones</option>
-        <option value="mexicana">Mexicana</option>
-        <option value="grecia">Grecia</option>
-        <option value="españa">Español</option>
-        <option value="tailandia">Tailandesa</option>
-        <option value="eeuu">Estado Unidense</option>
-      </select>
+      <option value="" disabled selected>Elige tu Opción Favorita</option>
+      <option value="pastas">Italiana</option>
+      <option value="criolla">Peruana</option>
+      <option value="carnes">Argentina</option>
+      <option value="francesa">Francesa</option>
+      <option value="sushi">Japones</option>
+      <option value="mexicana">Mexicana</option>
+      <option value="grecia">Grecia</option>
+      <option value="españa">Español</option>
+      <option value="tailandia">Tailandesa</option>
+      <option value="eeuu">Estado Unidense</option>
+    </select>
   </section>
   <div class="container-fluid vh100">
-    <div class="row">
-      <div class="col-xs-10 plate img-thumbnail data-toggle="modal" data-target="#ital" ita"></div>
-      <div class="col-xs-10 plate img-thumbnail data-toggle="modal" data-target="#myModal" peruana" > </div>
-      <div class="col-xs-10 plate img-thumbnail data-toggle="modal" data-target="#myModal" argentina" ></div>
-      <div class="col-xs-10 plate img-thumbnail data-toggle="modal" data-target="#myModal" francesa"></div>
-      <div class="col-xs-10 plate img-thumbnail data-toggle="modal" data-target="#myModal" japones"></div>
-      <div class="col-xs-10 plate img-thumbnail data-toggle="modal" data-target="#myModal" mexicana"></div>
-      <div class="col-xs-10 plate img-thumbnail data-toggle="modal" data-target="#myModal" grecia"></div>
-      <div class="col-xs-10 plate img-thumbnail data-toggle="modal" data-target="#myModal" española"></div>
-      <div class="col-xs-10 plate img-thumbnail data-toggle="modal" data-target="#myModal" tailandes"></div>
-      <div class="col-xs-10 plate img-thumbnail estadounidense"></div>
+    <div id="plateFood">
+      <div class="col-xs-10 plate img-thumbnail ita" data-toggle="modal" data-target="#ital" data-plate="italia" ></div>
+      <div class="col-xs-10 plate img-thumbnail peruana" data-toggle="modal" data-target="#peruana" data-plate="peruana" > </div>
+      <div class="col-xs-10 plate img-thumbnail argentina" data-toggle="modal" data-target="#argentina" data-plate="argentina" ></div>
+      <div class="col-xs-10 plate img-thumbnail francesa" data-toggle="modal" data-target="#francesa" data-plate="francesa" ></div>
+      <div class="col-xs-10 plate img-thumbnail japones" data-toggle="modal" data-target="#japones" data-plate="japones" ></div>
+      <div class="col-xs-10 plate img-thumbnail mexicana" data-toggle="modal" data-target="#mexicana" data-plate="mexicana" ></div>
+      <div class="col-xs-10 plate img-thumbnail grecia" data-toggle="modal" data-target="#greca" data-plate="greca" ></div>
+      <div class="col-xs-10 plate img-thumbnail española" data-toggle="modal" data-target="#española" data-plate="española"></div>
+      <div class="col-xs-10 plate img-thumbnail tailandes"data-toggle="modal" data-target="#tailandesa" data-plate="tailandesa" ></div>
+      <div class="col-xs-10 plate img-thumbnail estadounidense" data-toggle="modal" data-target="#eeuu" data-plate="eeuu"></div>
     </div>
   </div>
 <!-- modales -->
-<div class="modal fade" id="ital" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div class="modal fade" id="ital" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
