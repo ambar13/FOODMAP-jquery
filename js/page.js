@@ -19,6 +19,7 @@ $('.plate').mouseover(function() {
 });
 $('.plate').mouseout(function() {
 $('.plate').css('height','120px');
+$('.plate').css('width','content');
 });
 
 
