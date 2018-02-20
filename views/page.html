@@ -17,9 +17,8 @@
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31206.902691866606!2d-77.04635747873341!3d-12.121536050709867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8137c30393f%3A0x5268cb2b1c4b162b!2sMiraflores!5e0!3m2!1ses!2spe!4v1514682495671" width="95%" height="auto" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
   </div>
-  <section class="col-xs-12">
+  <section class="container-fluid">
     <h3 class="text-center">Comida Cerca De Ti</h3>
-    <!-- <input type="search" class="form-control search" id="searchPlate" aria-describedby="inputGroupSuccess1Status" placeholder="Tipos de platos"> -->
     <select class="form-control" id="listFood">
       <option value="" disabled selected>Elige tu Opción Favorita</option>
       <option value="italiana">Italiana</option>
@@ -29,7 +28,7 @@
       <option value="japonesa">Japones</option>
       <option value="mexicana">Mexicana</option>
       <option value="greca">Grecia</option>
-      <option value="españa+ola">Español</option>
+      <option value="española">Español</option>
       <option value="tailandesa">Tailandesa</option>
       <option value="eeuu">Estado Unidense</option>
     </select>
@@ -40,7 +39,7 @@
       <div class="col-xs-10 plate img-thumbnail peruana" data-toggle="modal" data-target="#peruana" data-plate="peruana" > </div>
       <div class="col-xs-10 plate img-thumbnail argentina" data-toggle="modal" data-target="#argentina" data-plate="argentina" ></div>
       <div class="col-xs-10 plate img-thumbnail francesa" data-toggle="modal" data-target="#francesa" data-plate="francesa" ></div>
-      <div class="col-xs-10 plate img-thumbnail japones" data-toggle="modal" data-target="#japones" data-plate="japones" ></div>
+      <div class="col-xs-10 plate img-thumbnail japones" data-toggle="modal" data-target="#japonesa" data-plate="japonesa" ></div>
       <div class="col-xs-10 plate img-thumbnail mexicana" data-toggle="modal" data-target="#mexicana" data-plate="mexicana" ></div>
       <div class="col-xs-10 plate img-thumbnail grecia" data-toggle="modal" data-target="#greca" data-plate="greca" ></div>
       <div class="col-xs-10 plate img-thumbnail española" data-toggle="modal" data-target="#española" data-plate="española"></div>
@@ -49,11 +48,12 @@
     </div>
   </div>
 <!-- modales -->
-<div class="modal fade" id="ital" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="modalId" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Menú</h4>
         </div>
         <div class="modal-body">
         </div>

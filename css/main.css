@@ -2,22 +2,15 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
-.container-flex-column {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 2 em;
-  height: 100vh;
-}
-
-.vh100 {
-  height: 100vh;
-}
-
-.img-fond {
-  background-image: url("../assets/images/1.jpg");
-  /* background-repeat: no-repeat; */
+.fondo {
+  background-image: url('../assets/images/1.jpg');
   background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  
+
 }
 
 .text-style {
@@ -33,60 +26,79 @@ body {
 .italiana {
   background-image: url("../assets/images/italiana.jpg");
   height: 120px;
-  background-size: unset;
-  /* background-repeat: no-repeat; */
+  width: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .peruana {
   background-image: url("../assets/images/peruana.jpg");
   height: 120px;
+  width: 250px;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .argentina {
   background-image: url("../assets/images/argentina.jpg");
   height: 120px;
+  width: 250px;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .francesa {
   background-image: url("../assets/images/francesa.jpg");
   height: 120px;
+  width: 250px;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .japones {
   background-image: url("../assets/images/japonesa.jpg");
   height: 120px;
+  width: 250px;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .mexicana {
   background-image: url("../assets/images/mexicana.jfif");
   height: 120px;
+  width: 250px;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .grecia {
   background-image: url("../assets/images/grecia.jpg");
   height: 120px;
+  width: 250px;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .española {
   background-image: url("../assets/images/español.jpg");
   height: 120px;
+  width: 250px;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .tailandes {
   background-image: url("../assets/images/tailandes.jpg");
   height: 120px;
+  width: 250px;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .estadounidense {
   background-image: url("../assets/images/eeuu.jfif");
   height: 120px;
+  width: 250px;
   background-size: cover;
+  background-repeat: no-repeat;
 }

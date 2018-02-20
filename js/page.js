@@ -14,12 +14,12 @@ $listFood.click(function() {
  
 // efecto del mouse
 $('.plate').mouseover(function() {
-  $('.plate').css('height' , '200px');  
-  $('.plate').css('width' , '300px');
+  $(this).css('height' , '300px');  
+  $(this).css('width' , '300px');
 });
 $('.plate').mouseout(function() {
-$('.plate').css('height','120px');
-$('.plate').css('width','content');
+$(this).css('height','230px');
+$(this).css('width','content');
 });
 
 
